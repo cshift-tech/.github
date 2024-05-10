@@ -1,7 +1,7 @@
 {
     "name": "CShift Organization Workflow",
     "description": "CShift Organization CI starter workflow.",
-    "iconName": "example-icon",
+    "iconName": "shifty-transparent",
     "categories": [
         "continuous-integration"
     ],
