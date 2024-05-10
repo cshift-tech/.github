@@ -1,0 +1,12 @@
+{
+    "name": "CShift Organization Security Workflow",
+    "description": "CShift Organization Security starter workflow.",
+    "iconName": "shifty-transparent",
+    "categories": [
+        "continuous-integration",
+        "security"
+    ],
+    "filePatterns": [
+        "^Dockerfile"
+    ]
+}

@@ -1,0 +1,16 @@
+name: CShift Organization Security
+
+on:
+  push:
+    branches: [ $default-branch ]
+  pull_request:
+    branches: [ $default-branch ]
+
+jobs:
+  security:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: cshift-tech/public-actions/.github/workflows/ts-app-security.yml@main
+        with:
+          - image-tag: ${{ GITHUB_REPOSITORY }}:${{ GITHUB_SHA }}
