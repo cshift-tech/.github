@@ -1,0 +1,13 @@
+{
+    "name": "CShift Organization Workflow",
+    "description": "CShift Organization CI starter workflow.",
+    "iconName": "example-icon",
+    "categories": [
+        "continuous-integration"
+    ],
+    "filePatterns": [
+        "package.json$",
+        "^Dockerfile",
+        ".*\\.md$"
+    ]
+}
