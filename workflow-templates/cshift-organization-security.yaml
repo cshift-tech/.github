@@ -13,4 +13,4 @@ jobs:
     steps:
       - uses: cshift-tech/public-actions/.github/workflows/ts-app-security.yml@main
         with:
-          - image-tag: ${{ GITHUB_REPOSITORY }}:${{ GITHUB_SHA }}
+          image-tag: ${{ GITHUB_REPOSITORY }}:${{ GITHUB_SHA }}
